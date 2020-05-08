@@ -5,7 +5,7 @@ import cors from 'cors';
 
 
 
-const server = new Server()
+const server = Server.instance;
 
 // Body parser
 // Es un middleware - Lo que te envien tomalo y genera un objeto de js
